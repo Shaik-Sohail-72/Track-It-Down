@@ -1,87 +1,108 @@
-# Network-Intrusion-Detection-Using-Deep-Learning
-## Objective : 
-Cyber Security: Development of Network Intrusion Detection System (NIDS),   with Machine Learning and Deep Learning, Recurrent Neural Network models, MERN web I/O System.
-## To run locally on your system:
-### Method - 1 :-
-step-1: Keep the Docker Desktop and Docker Hub running parallelly on your system then open the command prompt or terminal and run the following command [docker run --publish 3000:3000 saif0786/nids].
-
-step-2: You can now check the running of the service on your browser by typing [http://localhost:3000] as per shown above.
-
-### Method - 2 :-
-Step-1 : Fork or Clone the project using command [git clone "https://github.com/Shaik-Sohail-72/Network-Intrusion-Detection-Using-Deep-Learning.git"]   
-Step-2 : Create a .env file and set up the dovenv variable which is used in app.js (or) remove dotenv variables from app.js and set the links like mongoDB link etc.            
-Step-3 : Use command [npm install] to install all the packages.                                                                                                          
-Step-4 : Use command [node app.js] to run it locally.
-## Description : 
-Large numbers of businesses were affected by data infringes and Cyber -attacks due to dependency on internet. To prevent such malicious activity, the network requires a system that detects anomaly and inform the user and alerts the user. 
-
-![temp](https://user-images.githubusercontent.com/106341416/189742718-d621c3ad-ed1d-4b7b-b39a-f41d8fd0bc95.png)
-
-This project detects Network Intrusion anomalies by using NSL - KDD data-set. The deep learning model Long Short Term Memory (LSTM), superior version of RNN (Recurrent Neural Network) and KNN K - Nearest Neighbour Algorithm) method are used for binary and multi class classification. 
-
-The user enters the hacking parameters in the front end which is designed by using ReactJS. The model predicts the type of attack and gives information about the type of attack to the user. MongoDB is used for storing the data and NodeJS is served as back end framework.
-
-The project is fully responsive and completely based on session and cookies concepts. Once the user authenticated and logged-in It will not ask the user to enter the login parameters again and again (next visit). It ask login parameters only when user click on logout button. And also using google oauth 2.0 for user authentication and storing user details in salted hash in the mongoDB.
+#   TRACK IT DOWN
+“Track It Down” is a web application built using the MERN stack, specifically designed to address the problem of lost items on the KMIT campus. Many individuals 
+struggle to locate their lost belongings as they cannot remember where they misplaced 
+them. Existing methods, such as relying on WhatsApp groups to share information about 
+lost or found items, lack reliability in ensuring that the message reaches the correct 
+person. Lost and Found aims to provide a centralized platform for finding lost items and 
+reporting found items. The application utilizes a MongoDB database and incorporates a 
+verification process to authenticate the rightful receiver of a found item. 
+ In educational institutions like KMIT, the constant occurrence of lost items 
+causes significant inconvenience and financial burdens for students and teachers. The 
+primary motivation behind this project is to simplify the process of locating lost items while 
+ensuring that they are returned to their rightful owners. 
+ In educational institutions like KMIT, the constant occurrence of lost items 
+causes significant inconvenience and financial burdens for students and teachers. The 
+primary motivation behind this project is to simplify the process of locating lost items while 
+ensuring that they are returned to their rightful owners.
 
 ## Some Screenshots: 
-![1](https://user-images.githubusercontent.com/106341416/209460151-2bc95890-473f-4ea3-bfa6-9da18b999ec0.png)
 
-![2](https://user-images.githubusercontent.com/106341416/209460155-79f687af-f460-47bd-9c4c-86f396c62a14.png)
+![Screenshot (539)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/007b60f3-7d51-4687-a3ac-e1a17c30167a)
 
-![3](https://user-images.githubusercontent.com/106341416/209460159-d50a652f-7210-4ab4-9051-ae7545081214.png)
+![Screenshot (540)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/5ab5d32a-b5c7-4912-b34f-da8a11254624)
 
-![4](https://user-images.githubusercontent.com/106341416/209460162-d7029768-945f-4123-b0a0-79c4111b9a72.png)
+![Screenshot (541)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/d6343d18-eaa2-46dd-8277-5827f852156e)
 
-![5](https://user-images.githubusercontent.com/106341416/209460165-67d44819-d51e-4b28-9575-f8cf71e048ea.png)
+![Screenshot (542)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/16cbe654-3522-42a5-8431-9a29b939ff4b)
 
-![6](https://user-images.githubusercontent.com/106341416/209460186-368aa0a1-cb24-4055-8dcf-8c56550e2921.png)
+![Screenshot (543)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/59f9aa99-96bf-472c-9a9a-515d8ddc1eb9)
 
-![7](https://user-images.githubusercontent.com/106341416/209460190-6973ebff-6f33-41f5-aa3f-f402f1f5fa4e.png)
+![Screenshot (544)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/e7ef18a9-8567-4983-bd11-5cda5fd2a922)
 
-![8](https://user-images.githubusercontent.com/106341416/209460192-72023074-7b62-44ca-b7f4-d099208da448.png)
+![Screenshot (545)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/7fc8710b-6267-4fec-aa14-280813c6cb55)
 
-![9](https://user-images.githubusercontent.com/106341416/209460197-cc7e6285-7387-4796-b43c-5583b7939f35.png)
+![Screenshot (546)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/7fd3c283-9c5a-428c-a12e-562defe31a40)
 
-![10](https://user-images.githubusercontent.com/106341416/209460199-c43f6b7e-6ebf-4004-96e9-b0c62a213061.png)
+![Screenshot (547)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/594ca176-e66e-4adc-b8fa-4dbaad1b0534)
 
-![11](https://user-images.githubusercontent.com/106341416/209460203-b624bf33-fd4f-41ee-b52c-f23d6faca0f9.png)
+![Screenshot (548)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/4b0da732-2526-433e-9e15-6f82b0712087)
 
-![12](https://user-images.githubusercontent.com/106341416/209460206-95aadf0b-f258-482f-a3e3-619cf4765b4c.png)
+![Screenshot (549)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/17411c61-0e7a-47c6-a7ed-ea506eefa125)
 
-![13](https://user-images.githubusercontent.com/106341416/209460209-a692bb3b-1af6-48db-a501-e602879f7d25.png)
+![Screenshot (550)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/06aad9ce-b891-4c62-8434-207bef8a239c)
 
-![14](https://user-images.githubusercontent.com/106341416/209460212-48feb825-b226-4d6d-9299-d9c2e082112a.png)
+![Screenshot (551)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/02e01756-3fb6-46a6-acb1-ab4899c058d6)
 
-![15](https://user-images.githubusercontent.com/106341416/209460216-85007a3c-2677-4077-bb68-ff3827ff7a62.png)
+![Screenshot (552)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/925f8882-6515-4827-bc83-2ecc0e112752)
 
-![16](https://user-images.githubusercontent.com/106341416/209460221-e3d3c68b-44e4-4570-8342-17cb75732306.png)
+![Screenshot (553)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2d0ea18a-a821-468c-bf8f-e62ce022ffdb)
 
-![17](https://user-images.githubusercontent.com/106341416/209460224-996a3db5-6c30-4ca2-bc59-56eee6f867c0.png)
+![Screenshot (554)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/94433d50-4923-4595-8980-0fcbe29e1832)
 
-![18](https://user-images.githubusercontent.com/106341416/209460227-552bb0da-b900-486c-807c-8aa2241aa491.png)
+![Screenshot (555)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/ce7e716a-6061-46d0-a414-79a8277a8e3d)
 
-![19](https://user-images.githubusercontent.com/106341416/209460230-d301cf98-c40f-439a-848a-9655084b3c17.png)
+![Screenshot (556)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/d19d26cb-065f-432f-8721-20d52bfefd65)
 
-![20](https://user-images.githubusercontent.com/106341416/209460233-01e4ac22-3728-4870-afb4-356efb52e8c7.png)
+![Screenshot (557)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/28e80faa-1411-432f-a430-7e3d042c24b1)
 
-![21](https://user-images.githubusercontent.com/106341416/209460237-c9a77395-8b7e-47ac-a829-955d9cb5a44c.png)
+![Screenshot (558)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/35be36e4-98fb-47b6-8f96-09b2228ac4dc)
 
-![22](https://user-images.githubusercontent.com/106341416/209460239-ecc44806-b731-4676-a68b-cd9f0b064e95.png)
+![Screenshot (559)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/aad1e749-45c6-4672-9848-ec63be1a851c)
 
-![23](https://user-images.githubusercontent.com/106341416/209460242-a8306b45-6a88-4941-8433-645caeaa00df.png)
+![Screenshot (560)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/6d5ff4d9-d9a1-4073-919a-6e09962264fb)
 
-![24](https://user-images.githubusercontent.com/106341416/209460245-bcf656a8-407a-4618-9a93-a301a23a2707.png)
+![Screenshot (562)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2d5eaa21-48e3-40e2-9e16-ceaf19a129a8
 
-![25](https://user-images.githubusercontent.com/106341416/209460250-b93aacdc-4d00-4dd6-95c7-3e341494a112.png)
+![Screenshot (563)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/675f2e83-52da-4373-9e24-42bbb0fde298)
 
-![26](https://user-images.githubusercontent.com/106341416/209460255-bdb1e83a-0c4a-4f89-9364-2ca1d73566f4.png)
+![Screenshot (564)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/18dc76dd-e075-4f87-8e80-3d1a81d36cb9
 
-![27](https://user-images.githubusercontent.com/106341416/209460257-473788b1-918f-4685-9588-923686ce6e39.png)
+![Screenshot (565)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2007d552-2740-49a9-b943-1b1bb94724c6)
 
-![28](https://user-images.githubusercontent.com/106341416/209460259-b614d2d4-9ea8-4a7e-bd74-835946b53a3f.png)
+![Screenshot (566)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/f35cab2f-177e-40cc-b3d8-a36111fdf274)
 
-![29](https://user-images.githubusercontent.com/106341416/209460261-241274e1-348c-40f6-8d6c-75489a501758.png)
+![Screenshot (567)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/cb047d44-f3eb-430e-ab65-ae80aa6a60b0)
 
-![30](https://user-images.githubusercontent.com/106341416/209460264-ecf8c655-c48b-47ee-bdc0-824f27fc8d5d.png)
+![Screenshot (568)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/12ddb03e-ec43-4711-86f6-8f9f12856e93)
 
-![31](https://user-images.githubusercontent.com/106341416/209460266-01fcd78d-730b-4dd8-aa7a-05ec823f1bdc.png)
+![Screenshot (569)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2de794ae-5333-4b48-8418-308a756a21bc)
+
+![Screenshot (570)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/4801216d-d10e-4b16-86d5-61d4da66bcff)
+
+![Screenshot (571)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/4aff327d-fd22-420c-a01b-cebf3a423e60)
+
+![Screenshot (572)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/970547c1-3669-4234-be20-8dca2c2e76a5)
+
+![Screenshot (573)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/21c6e1bb-cd88-4a13-a60d-5b045dc7f155)
+
+![Screenshot (574)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/beed3e34-1654-4907-b010-b737b0e56435)
+
+![Screenshot (575)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/517897de-a306-4c0a-875b-155f9a72d17f)
+
+![Screenshot (576)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/c0d61612-1ad3-429b-bee3-2dec17cc116a)
+
+![Screenshot (577)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/45a19d36-d021-4515-ab19-efcf656f18c9)
+
+![Screenshot (578)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/b8eb75c3-4d82-4a5f-bba4-9944241ebab5)
+
+![Screenshot (579)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/a0256093-583f-4308-b88b-25529797addb)
+
+![Screenshot (580)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/af5917f0-0794-4d01-9305-0a771a4dba9a)
+
+![Screenshot (581)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/c1a25f6a-8ae3-42c6-b42e-ae89edfcaf16)
+
+![Screenshot (582)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/5369a890-7178-468a-833d-a61141df0c7b)
+
+![Screenshot (584)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/5957e718-66c4-4614-8e4b-2af986a9ae8b)
+
+![Screenshot (585)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/ad83a0cc-9853-4d91-b443-e50934007efc)
