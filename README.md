@@ -61,11 +61,11 @@ ensuring that they are returned to their rightful owners.
 
 ![Screenshot (560)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/6d5ff4d9-d9a1-4073-919a-6e09962264fb)
 
-![Screenshot (562)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2d5eaa21-48e3-40e2-9e16-ceaf19a129a8
+![Screenshot (562)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2d5eaa21-48e3-40e2-9e16-ceaf19a129a8)
 
 ![Screenshot (563)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/675f2e83-52da-4373-9e24-42bbb0fde298)
 
-![Screenshot (564)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/18dc76dd-e075-4f87-8e80-3d1a81d36cb9
+![Screenshot (564)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/18dc76dd-e075-4f87-8e80-3d1a81d36cb9)
 
 ![Screenshot (565)](https://github.com/Shaik-Sohail-72/New-Track-It-Down/assets/106341416/2007d552-2740-49a9-b943-1b1bb94724c6)
 
