@@ -1,5 +1,5 @@
 #   TRACK IT DOWN
-“Track It Down” is a web application built using the MERN stack, specifically designed to address the problem of lost items on the KMIT campus. Many individuals 
+“Track It Down” is a web application built using the MERN stack, specifically designed to address the problem of lost items on the KMIT campus. Many individuals   
 struggle to locate their lost belongings as they cannot remember where they misplaced 
 them. Existing methods, such as relying on WhatsApp groups to share information about 
 lost or found items, lack reliability in ensuring that the message reaches the correct 
